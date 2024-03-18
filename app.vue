@@ -1,5 +1,12 @@
 <template>
-  <div class="flex h-screen w-screen items-center justify-center bg-blue-950">
-    <h1 class="text-bold text-6xl text-white">Hello, World.</h1>
+  <div class="flex h-screen min-h-screen min-w-[100vw] flex-col font-onest text-black dark:bg-purpur-800 dark:text-white">
+    <NuxtLayout>
+      <header class="shadow-2xl"><Navbar /></header>
+      <main class="flex flex-grow"><NuxtPage /></main>
+    </NuxtLayout>
   </div>
 </template>
+
+<style>
+@import "./assets/css/main.css";
+</style>
