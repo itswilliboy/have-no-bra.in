@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-grow justify-center">
-    <nuxt-img src="/circles.svg" id="circles" class="-z-0 object-cover opacity-30" />
+    <nuxt-img src="/circles.svg" id="circles" class="-z-0 object-cover opacity-10" v-if="imageHidden" />
     <h1 class="z-0 mt-32 text-6xl font-bold">Hello, World!</h1>
   </div>
 </template>
@@ -12,3 +12,9 @@
   height: calc(100% - var(--header-height));
 }
 </style>
+
+<script setup>
+const imageHidden = useCookie("imageHidden", {
+  sameSite: "strict",
+})
+</script>
