@@ -1,5 +1,14 @@
 <template>
   <div class="flex flex-grow justify-center">
-    <h1 class="mt-32 text-3xl font-semibold">Hello, World!</h1>
+    <nuxt-img src="/circles.svg" id="circles" class="-z-0 object-cover opacity-30" />
+    <h1 class="z-0 mt-32 text-6xl font-bold">Hello, World!</h1>
   </div>
 </template>
+
+<style>
+#circles {
+  position: absolute;
+  width: 100%;
+  height: calc(100% - var(--header-height));
+}
+</style>
