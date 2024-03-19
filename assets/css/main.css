@@ -10,3 +10,7 @@
 body * {
   @apply transition-colors duration-500;
 }
+
+:root {
+  --header-height: 64px;
+}
