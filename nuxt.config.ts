@@ -11,7 +11,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["nuxt-icon", "@nuxtjs/color-mode"],
+  modules: ["nuxt-icon", "@nuxtjs/color-mode", "@nuxt/image"],
   colorMode: {
     classSuffix: "",
     preference: "dark",
