@@ -1,7 +1,7 @@
 <template>
   <div class="text-white">
     <button
-      class="-m-4 flex flex-col items-center justify-center rounded-lg bg-white/20 p-3 text-xs transition-colors hover:bg-white/30"
+      class="flex flex-col items-center justify-center rounded-lg bg-white/20 p-3 text-xs transition-colors hover:bg-white/30"
       @click="swapTheme()"
     >
       <Icon
