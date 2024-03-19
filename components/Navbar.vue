@@ -20,8 +20,8 @@
 
 <script setup>
 const menuItems = [
-  { name: "Domains", to: "#" }, // temporary #
-  { name: "Second", to: "#" },
-  { name: "Third", to: "#" },
+  { name: "Domains", to: "/" },
+  { name: "Second", to: "/" },
+  { name: "Third", to: "/" },
 ]
 </script>
