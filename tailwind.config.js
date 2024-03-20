@@ -19,6 +19,7 @@ export default {
         "purpur-600": "#3C096C",
         "purpur-700": "#240046",
         "purpur-800": "#10002B",
+        "green-brand": "#00DC82",
       },
     },
     fontFamily: {
