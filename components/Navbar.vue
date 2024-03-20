@@ -14,7 +14,7 @@ const navItems = [
       </NuxtLink>
 
       <div class="flex w-80 flex-row gap-2">
-        <nuxt-link v-for="item in navItems" :key="item" :to="item.to">
+        <nuxt-link v-for="item in navItems" :key="item.name" :to="item.to">
           <h2 class="hover:bg-whie/20 rounded-lg p-3 font-semibold transition-colors hover:bg-white/20">
             {{ item.name }}
           </h2>
