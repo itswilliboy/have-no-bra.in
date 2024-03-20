@@ -6,17 +6,15 @@ useCookie("imageHidden", {
 </script>
 
 <template>
-  <div class="flex h-screen min-h-screen flex-col overflow-x-clip font-onest text-black dark:bg-purpur-800 dark:text-white">
+  <div class="overflow-x-clip font-onest text-black dark:bg-purpur-800 dark:text-white">
     <NuxtLayout>
-      <header class="shadow-2xl">
-        <Navbar />
-      </header>
+      <Navbar />
 
-      <main id="main" class="flex flex-grow">
+      <main id="main">
         <NuxtPage />
       </main>
 
-      <footer id="footer" class="z-10 min-h-24 w-screen bg-gray-200 dark:bg-purpur-700">
+      <footer class="bg-gray-200 dark:bg-purpur-700">
         <Footer />
       </footer>
     </NuxtLayout>
@@ -25,6 +23,6 @@ useCookie("imageHidden", {
 
 <style scoped>
 #main {
-  min-height: calc(100vh - var(--header-height));
+  min-height: calc(100vh);
 }
 </style>
