@@ -15,7 +15,7 @@ const handleChange = () => {
 <template>
   <base target="_blank" />
 
-  <div class="flex h-full w-full items-center justify-center text-gray-500 dark:text-gray-400">
+  <div class="flex h-full w-full items-center justify-center text-black dark:text-white">
     <div class="text-center">
       <p>
         Made with ❤️ using <a href="https://nuxt.com" class="green-brand">Nuxt</a> and
@@ -34,7 +34,7 @@ const handleChange = () => {
 
 <style scoped>
 .green-brand {
-  @apply text-green-brand font-extrabold transition-all;
+  @apply font-extrabold text-green-brand transition-all;
 }
 
 .green-brand:hover {

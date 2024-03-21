@@ -6,9 +6,9 @@ useCookie("imageHidden", {
 </script>
 
 <template>
-  <div class="flex h-screen min-h-screen flex-col overflow-x-clip font-onest text-black dark:bg-purpur-800 dark:text-white">
+  <div class="dark:bg-background flex h-screen min-h-screen flex-col overflow-x-clip font-onest text-black dark:text-white">
     <NuxtLayout>
-      <header class="shadow-2xl">
+      <header class="bg-background border-b dark:border-gray-200">
         <Navbar />
       </header>
 
@@ -16,7 +16,7 @@ useCookie("imageHidden", {
         <NuxtPage />
       </main>
 
-      <footer id="footer" class="z-10 min-h-24 w-screen bg-gray-200 dark:bg-purpur-700">
+      <footer id="footer" class="dark:bg-background z-10 min-h-24 w-screen bg-gray-200">
         <Footer />
       </footer>
     </NuxtLayout>

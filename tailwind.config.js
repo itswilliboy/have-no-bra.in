@@ -11,14 +11,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        "purpur-100": "#E0AAFF",
-        "purpur-200": "#C77DFF",
-        "purpur-300": "#9D4EDD",
-        "purpur-400": "#7B2CBF",
-        "purpur-500": "#5A189A",
-        "purpur-600": "#3C096C",
-        "purpur-700": "#240046",
-        "purpur-800": "#10002B",
+        background: "#050419",
+        primary: "#8C80E9",
+        secondary: "#8F1970",
+        accent: "#8F1970",
         "green-brand": "#00DC82",
       },
     },

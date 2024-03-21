@@ -13,7 +13,7 @@ const toggleTheme = () => {
 <template>
   <div class="text-white">
     <button
-      class="flex flex-col items-center justify-center rounded-lg bg-white/20 p-3 text-xs transition-colors hover:bg-white/30"
+      class="-mr-4 flex flex-col items-center justify-center rounded-lg bg-white/10 p-3 text-xs transition-colors hover:bg-white/20"
       @click="toggleTheme()"
     >
       <Icon
